@@ -1,0 +1,8 @@
+---
+-host: all
+become: yes
+tasks:
+  template:
+        src: ../local/shopizar.war
+        dest: /etc/shopizar
+      
